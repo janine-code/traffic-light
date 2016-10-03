@@ -10,7 +10,10 @@ function showNumber(num){
 
 function interval(){
         counter++;
-        // write some code here
+        if(counter===60){
+          counter=0;
+        }
+        }// write some code here
 
         showNumber(counter);
 }
